@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+</head>
+<body>
+    <h1>imagem dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pais-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/pais-m.jpg" type="image/jpg">
+        <img src="imagens/pais-g.jpg" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src="midia/Windows Rolled Down - The 126ers.mp3" controls autoplay>Rock Calmo</audio>
+    <audio>
+        <source src="midia/guanacast-33.mp3" type="mpeg">
+        <source src="midia/guanacast-33.ogg" type="ogg">
+    </audio>
+</body>
+</html>
